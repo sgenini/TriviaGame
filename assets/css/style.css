@@ -1,0 +1,112 @@
+html { 
+    background: url(../images/photo-1527684651001-731c474bbb5a.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Playfair Display SC', serif; */
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+  }
+  
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+}
+
+h3,
+h4 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+h5 {
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 10px;
+}
+
+.btn {
+    font-family: 'Kaushan Script', cursive;
+    /* font-weight: 200px; */
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    width: auto;
+}
+
+p {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+}
+
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.container {
+    display: block;
+    overflow: auto;
+    background: transparent;
+}
+
+.jumbotron {
+    background-color: #FEFEFE;
+    margin-top: 7.5%;
+    border: 5px solid darkslategray;
+    /* height: 650px; */
+}
+
+.timer {
+    display:none;
+    margin-top: 10px;
+}
+
+#restart-button {
+    display:none;
+}
+
+#game-display {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    width: 50%;
+}
+
+.card {
+    border: 3px solid darkslategray;
+}
+
+.question-text {
+    font-size: 25px;
+}
+
+.answerChoice {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.answerChoice:hover {
+    box-shadow: 0px 0px 5px #888888;
+    color: #FEFEFE;
+    background-color: darkslategray;
+}
+
+.logo {
+    width: 400px;
+}
